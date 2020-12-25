@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingStart="50dp"
+    android:paddingEnd="50dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/locationButton"
+        android:layout_centerHorizontal="true"
+        android:layout_above="@id/cameraButton"
+        android:layout_marginBottom="10dp"
+        android:text="@string/check_location"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/divider"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/cameraButton"
+        android:text="@string/check_camera"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:id="@+id/divider"
+        android:layout_centerVertical="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/divider"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/phoneButton"
+        android:text="@string/check_phone"
+        />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/allButton"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/phoneButton"
+        android:layout_marginTop="10dp"
+        android:text="@string/check_all"
+        />
+
+</RelativeLayout>

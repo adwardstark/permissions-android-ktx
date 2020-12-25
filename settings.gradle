@@ -1,0 +1,3 @@
+include ':permissions-ktx'
+include ':app'
+rootProject.name = "permissions-android-ktx"

@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">permissions-android-ktx</string>
+    <string name="check_location">Check Location</string>
+    <string name="check_camera">Check Camera</string>
+    <string name="check_phone">Check Phone</string>
+    <string name="check_all">Check ALL</string>
+</resources>
